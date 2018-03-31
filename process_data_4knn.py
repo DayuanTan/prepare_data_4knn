@@ -11,7 +11,7 @@ path = "sample"
 files = os.listdir(path)
 print(files)
 files.sort()                            # sort it only for me to check it easily.
-files.remove(".DS_Store")               # only Mac OS needs this. I found Mac always creates this file for a directory.
+#files.remove(".DS_Store")               # only Mac OS needs this. I found Mac always creates this file for a directory.
 print(files)
 
 for file in files:
